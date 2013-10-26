@@ -1732,6 +1732,11 @@ declare module THREE {
         matrix: Matrix4;
 
         /**
+         * World transform.
+         */
+        matrixWorld: Matrix4;
+
+        /**
          * Global rotation.
          */
         matrixRotationWorld: Matrix4;
